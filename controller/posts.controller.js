@@ -74,21 +74,6 @@ const postsController = {
                 state: "error",
             })
         }
-    },
-    testing: async (req, res) => {
-        try{
-            // const {id} = req.params
-            // const sql = "delete from posts where id = ?"
-            // const [rows,fields] = await pool.query(sql, [id])
-            res.json({
-                data: "testing",
-            })
-        }catch(error){
-            console.log(error)
-            res.json({
-                state: "error",
-            })
-        }
     }
 }
 

@@ -10,7 +10,4 @@ router.post("/", postsController.create)
 router.put("/:id", postsController.update)
 router.delete("/:id", postsController.delete)
 
-// Test Api routes form same controller .. except those rest endpoints
-router.get("/testing", postsController.testing)
-
 module.exports = router
